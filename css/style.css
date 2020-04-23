@@ -2,13 +2,13 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-ul {
+header ul {
     text-align: center;
     list-style-type: none;
     padding: 0px;
 }
 
-li {
+header li {
     display: inline-block;
     margin: 10px;
 }
@@ -31,9 +31,35 @@ a {
     background-position: center;
 }
 
-#rodape {
+header {
+    border: 1px solid #cccccc;
+}
+
+footer {
     font-weight: bold;
     text-align: center;
     background-color: #cccccc;
     padding: 20px;
+}
+
+section {
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+}
+
+.about {
+    text-align: center;
+}
+
+.music {
+    width: 70%;
+    margin: 0px auto;
+}
+
+.contact {
+    width: 70%;
+    margin: 0px auto;
 }
